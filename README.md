@@ -1,0 +1,121 @@
+# Design-a-Web-Page-using-HTML-and-CSS-Styling
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe Sharing Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <h1>Andhra Recipes</h1>
+    <input type="text" class="search-box" placeholder="Search recipes...">
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <img src="https://cdn.britannica.com/17/196817-159-9E487F15/vegetables.jpg
+    " alt="Delicious Andhra Food">
+  </section>
+
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <h2>Welcome to Andhra Recipes!</h2>
+    <p>
+      Discover the rich, spicy flavors of Andhra cuisine! Explore authentic homemade recipes like Gongura Pappu and Andhra Mango Pickle, passed down through generations.
+    </p>
+  </section>
+
+  <!-- Image Gallery -->
+  <section class="gallery">
+    <h2>Top Andhra Recipes</h2>
+    <div class="gallery-container">
+      <div class="gallery-item" style="background-image: url(https://cookingfromheart.com/wp-content/uploads/2015/09/CH_DSC_0243_7-1-500x500.jpg);">
+        <div class="caption">Gongura Pappu</div>
+      </div>
+      <div class="gallery-item" style="background-image: url(https://binjalsvegkitchen.com/wp-content/uploads/2024/04/Instant-Mango-Pickle-H1.jpg);">
+        <div class="caption">Andhra Mango Pickle</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recipe Details -->
+  <section class="recipe-details">
+    <h2>Recipe Details</h2>
+
+    <!-- Gongura Pappu -->
+    <div class="recipe">
+      <h3>🥬 Gongura Pappu</h3>
+      <div class="recipe-content">
+        <div class="ingredients">
+          <h4>Ingredients:</h4>
+          <ul>
+            <li>1 cup Toor dal</li>
+            <li>2 cups Gongura leaves</li>
+            <li>1 onion, chopped</li>
+            <li>2 green chilies</li>
+            <li>1/2 tsp turmeric powder</li>
+            <li>Salt to taste</li>
+            <li>1 tsp mustard seeds</li>
+            <li>1 tsp cumin seeds</li>
+            <li>2 dry red chilies</li>
+            <li>5 garlic cloves</li>
+            <li>2 tsp oil</li>
+          </ul>
+        </div>
+        <div class="process">
+          <h4>Steps:</h4>
+          <ol>
+            <li>Cook dal with turmeric and chilies in a cooker.</li>
+            <li>In a pan, sauté gongura till wilted.</li>
+            <li>Mix dal and gongura together.</li>
+            <li>Heat oil, add mustard, cumin, red chilies, garlic and onion.</li>
+            <li>Pour this into dal mixture. Mix and serve hot!</li>
+          </ol>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Mango Pickle -->
+    <div class="recipe">
+      <h3>🥭 Andhra Mango Pickle (Avakaya)</h3>
+      <div class="recipe-content">
+        <div class="ingredients">
+          <h4>Ingredients:</h4>
+          <ul>
+            <li>2 raw mangoes, chopped</li>
+            <li>1/2 cup mustard powder</li>
+            <li>1/4 cup red chili powder</li>
+            <li>1 tbsp salt</li>
+            <li>1/2 tsp turmeric powder</li>
+            <li>1/2 cup sesame oil</li>
+            <li>1 tbsp fenugreek seeds</li>
+          </ul>
+        </div>
+        <div class="process">
+          <h4>Steps:</h4>
+          <ol>
+            <li>Dry mango pieces fully.</li>
+            <li>Roast fenugreek, grind to powder.</li>
+            <li>Mix mustard, chili powder, salt, turmeric.</li>
+            <li>Add mango, fenugreek, and oil. Mix well.</li>
+            <li>Store in a jar. Ready in 3 days!</li>
+          </ol>
+        </div>
+      </div>
+      <img src="https://www.simplotfoods.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2F0dkgxhks0leg%2F4LaYoCoepR6ZwEkAmQFh2F%2Fe82fa8e3c87f0e4cdb3e914b3e766fa0%2Fblog-large-2020veg.jpg%3Ffm%3Dwebp&w=1920&q=75" alt="Andhra Mango Pickle" class="recipe-image">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Andhra Recipes. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
